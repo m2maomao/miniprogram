@@ -1,0 +1,5 @@
+<!--pages/index/view.wxml-->
+<view class='github-info'>
+  <view>My Github:</view>
+  <view class="url">https://github.com/m2maomao</view>
+</view>

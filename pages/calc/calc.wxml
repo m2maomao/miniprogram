@@ -1,0 +1,43 @@
+<view class="content">
+
+  <view class="layout-top">
+    <view class='screen'>
+      {{screenData}}
+    </view>
+  </view>
+
+  <view class="layout-bottom">
+    <view class='btnGroup'>
+      <view class='item orange' bindtap="clickBtn" id='{{idc}}'>C</view>
+      <view class='item orange' bindtap="clickBtn" id='{{idb}}'>←</view>
+      <view class='item orange iconBtn' bindtap='history'>
+        <icon type='{{iconType}}' color="{{iconColor}}" class='icon' size='25' />
+      </view>
+      <view class='item orange' bindtap='clickBtn' id='{{idadd}}'>+</view>
+    </view>
+    <view class='btnGroup'>
+      <view class='item blue' bindtap='clickBtn' id='{{id9}}'>9</view>
+      <view class='item blue' bindtap='clickBtn' id='{{id8}}'>8</view>
+      <view class='item blue' bindtap='clickBtn' id='{{id7}}'>7</view>
+      <view class='item orange' bindtap='clickBtn' id='{{idj}}'>-</view>
+    </view>
+    <view class='btnGroup'>
+      <view class='item blue' bindtap='clickBtn' id='{{6}}'>6</view>
+      <view class='item blue' bindtap='clickBtn' id='{{5}}'>5</view>
+      <view class='item blue' bindtap='clickBtn' id='{{4}}'>4</view>
+      <view class='item orange' bindtap='clickBtn' id='{{idx}}'>x</view>
+    </view>
+    <view class='btnGroup'>
+      <view class='item blue' bindtap='clickBtn' id='{{3}}'>3</view>
+      <view class='item blue' bindtap='clickBtn' id='{{2}}'>2</view>
+      <view class='item blue' bindtap='clickBtn' id='{{1}}'>1</view>
+      <view class='item orange' bindtap='clickBtn' id='{{iddiv}}'>÷</view>
+    </view>
+    <view class='btnGroup'>
+      <view class='item blue zero' bindtap='clickBtn' id='{{id0}}'>0</view>
+      <view class='item blue' bindtap='clickBtn' id='{{idd}}'>.</view>
+      <view class='item orange' bindtap='clickBtn' id='{{ide}}'>=</view>
+    </view>
+  </view>
+
+</view>

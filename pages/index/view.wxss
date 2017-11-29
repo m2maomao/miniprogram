@@ -1,0 +1,7 @@
+/* pages/index/view.wxss */
+.github-info{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx 0 40rpx 20rpx;
+}
